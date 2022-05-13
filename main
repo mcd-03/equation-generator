@@ -1,8 +1,0 @@
-from Equation import Equation
-from OneStepEquation import OneStepEquation
-from TwoStepEquation import TwoStepEquation
-
-for _ in range(10):
-    eq = Equation.create()
-    print(eq.representation)
-    print(eq.solution)
